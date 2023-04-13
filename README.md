@@ -16,7 +16,7 @@ run ':PackerInstall' in Neovim
 #### TMUX
 | Keybind | Usage |
 |---------|-------|
-| <C-t> | Command button to start keybind |
+| Control-t | Command button to start keybind |
 | n | next panel |
 | p | previous panel |
 | c | new panel | 
