@@ -4,10 +4,21 @@ Credit to [craftzdog (Takuya)](https://github.com/craftzdog/dotfiles-public), mo
 
 ## Installation Process & Notes
 ### Switch Caps Lock to Control/Escape
-// TODO
+If using Mac: `Keyboard Settings > Keyboard Shortcuts > Modifier Keys > Caps Locks to Control`:
 
 ### Neovim Package Installation
 run ':PackerInstall' in Neovim 
 
-##### Keybinding Cheatsheet
-// TODO
+### Keybinding Cheatsheet
+#### NVIM
+
+
+#### TMUX
+| Keybind | Usage |
+|---------|-------|
+| <C-t> | Command button to start keybind |
+| n | next panel |
+| p | previous panel |
+| c | new panel | 
+
+#### Splitting Panels
