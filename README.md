@@ -11,8 +11,9 @@ run ':PackerInstall' in Neovim
 
 ### Keybinding Cheatsheet
 #### NVIM
+| Keybind | Usage |
 
-
+|---------|-------|
 #### TMUX
 | Keybind | Usage |
 |---------|-------|
@@ -22,3 +23,5 @@ run ':PackerInstall' in Neovim
 | c | new panel | 
 
 #### Splitting Panels
+| Keybind | Usage |
+|---------|-------|
