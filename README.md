@@ -9,6 +9,9 @@ If using Mac: `Keyboard Settings > Keyboard Shortcuts > Modifier Keys > Caps Loc
 ### Neovim Package Installation
 run ':PackerInstall' in Neovim 
 
+### LSP Library Installation
+Inside neovim, run ':LspInstall tailwindcss'
+
 ### Keybinding Cheatsheet
 #### NVIM
 | Keybind | Usage |
