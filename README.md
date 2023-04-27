@@ -10,13 +10,18 @@ If using Mac: `Keyboard Settings > Keyboard Shortcuts > Modifier Keys > Caps Loc
 run ':PackerInstall' in Neovim 
 
 ### LSP Library Installation
-Inside neovim, run ':LspInstall tailwindcss'
+Inside neovim, run ':LspInstall <LSP_LIBRARBY>'
+e.g. `:LspInstall tailwindcss` will install Tailwind LSP configurations
 
 ### Keybinding Cheatsheet
 #### NVIM
 | Keybind | Usage |
+| te | New tab |
+| tn | Switch tab next |
+| tp | Switch tab previous
+| ss | Split window vertically |
+| sv | Split window horizontally |
 
-|---------|-------|
 #### TMUX
 | Keybind | Usage |
 |---------|-------|

@@ -1,18 +1,23 @@
 local keymap = vim.keymap
 
+
+---- OPEN NETRW ----
+keymap.set('n', '<C-p>', vim.cmd.Ex)
+
+
+---- TEXT ALTERATIONS ----
 -- Do not yank with x
 keymap.set('n', 'x', '"_x')
-
 --Incremenet / decrement
 keymap.set('n', '+', '<C-+>')
 keymap.set('n', '-', '<C-->')
-
 -- Delete a word backwards
 keymap.set('n', 'dw', 'vb"_d')
-
 -- Select all
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 
+
+---- WINDOWS AND TABS ----
 -- New tab
 keymap.set('n', 'te', ':tabedit<Return>', {silent = true})
 keymap.set('n', 'tn', ':tabn<Return>', {silent = true})
