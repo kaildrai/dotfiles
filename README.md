@@ -16,11 +16,17 @@ e.g. `:LspInstall tailwindcss` will install Tailwind LSP configurations
 ### Keybinding Cheatsheet
 #### NVIM
 | Keybind | Usage |
+| Space | Remapped leader modifier |
 | te | New tab |
 | tn | Switch tab next |
 | tp | Switch tab previous
 | ss | Split window vertically |
 | sv | Split window horizontally |
+| <leader>pv | Open NetRW |
+| <leader>pf | Find files |
+| <C-p> | Find git files |
+| :%s/x/y/g | Replaces string 'x' with 'y' (/g for global) |
+
 
 #### TMUX
 | Keybind | Usage |
@@ -29,6 +35,7 @@ e.g. `:LspInstall tailwindcss` will install Tailwind LSP configurations
 | n | next panel |
 | p | previous panel |
 | c | new panel | 
+
 
 #### Splitting Panels
 | Keybind | Usage |
